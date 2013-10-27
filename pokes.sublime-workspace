@@ -1200,7 +1200,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 178.0,
 	"status_bar_visible": true,
 	"template_settings":
