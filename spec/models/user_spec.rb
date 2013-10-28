@@ -11,6 +11,16 @@ describe User do
 			@user.should be_invalid
 		end
 
+		it "is invalid without a password" do
+			@user.password = nil
+			@user.should be_invalid
+		end
+
+		it "is invalid if password and password_confirmation are not identical" do
+			@user.password_confirmation = "not_identical"
+			@user.should be_invalid
+		end
+
 		it "should have a password_salt and password_hash after saving" do
 			@user.password_hash.should_not be_present
 			@user.password_salt.should_not be_present
