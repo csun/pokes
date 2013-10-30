@@ -4,7 +4,7 @@ class User < ActiveRecord::Base
 
 	validates :password, confirmation: true
 	validates :password_confirmation, presence:true
-	validates :username, presence: true
+	validates :username, presence: true, uniqueness: true
 
 	def encrypt_password
 		if password.present?

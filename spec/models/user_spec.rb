@@ -11,6 +11,12 @@ describe User do
 			@user.should be_invalid
 		end
 
+		it "is invalid if username is not unique" do
+			@user.save
+			indentical_user = FactoryGirl.build(:user, username: User.first.username)
+			indentical_user.should be_invalid
+		end
+
 		it "is invalid without a password" do
 			@user.password = nil
 			@user.should be_invalid
