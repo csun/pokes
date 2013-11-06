@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-feature "User management" do
+feature "User resgistration" do
 	scenario "Registering a valid User" do
 		visit new_user_path
 		

@@ -3,10 +3,11 @@ class SessionsController < ApplicationController
 	end
 
 	def create
-		@user = User.find_by_username(params[:username])
+		user = User.authenticate(params[:username], params[:password])
 
-		if valid_credentials
-			flash[:notice] = "Welcome, " + @user.username
+		if user
+			flash[:notice] = "Welcome, " + user.username
+			session[:user_id] = user.id
 			redirect_to root_path
 		else
 			flash[:alert] = "Invalid username or password"
@@ -14,12 +15,11 @@ class SessionsController < ApplicationController
 		end
 	end
 
-	def valid_credentials
-		return false if @user == nil
-		
-		hashed_param = BCrypt::Engine.hash_secret(params[:password], @user.password_salt)
-		@user.password_hash == hashed_param
+	def destroy
+		if session[:user_id]
+			session[:user_id] = nil
+			flash[:notice] = "Successfully logged out"
+		end
+		redirect_to root_path
 	end
-
-	private :valid_credentials
 end

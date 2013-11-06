@@ -15,10 +15,6 @@ describe UsersController do
 			it "redirects to the new User" do
 				response.should redirect_to User.last
 			end
-
-			it "should flash a notice" do
-				flash[:notice].should_not be_nil
-			end
 		end
 
 		context "with an invalid User" do
@@ -34,10 +30,6 @@ describe UsersController do
 
 			it "redirects to the new User page" do
 				response.should redirect_to new_user_path
-			end
-
-			it "should flash an alert" do
-				flash[:alert].should_not be_nil
 			end
 		end
 	end

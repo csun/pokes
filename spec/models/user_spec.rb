@@ -35,4 +35,10 @@ describe User do
 			@user.password_salt.should be_present
 		end
 	end
+
+	it "can authenticate based on a username and password" do
+		user = FactoryGirl.create(:user)
+		authenticated = User.authenticate(user.username, user.password)
+		authenticated.should eq user
+	end
 end
