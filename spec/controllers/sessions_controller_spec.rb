@@ -27,8 +27,9 @@ describe SessionsController do
 			end
 		end
 	end
+
+	def login_as(user)
+		post :create, username: @user.username, password: @user.password
+	end
 end
 
-def login_as(user)
-	post :create, username: @user.username, password: @user.password
-end
