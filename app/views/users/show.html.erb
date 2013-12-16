@@ -1,0 +1,10 @@
+<div id='pokes'>
+<% if @user.pokes.count > 0 %>
+	<% @user.pokes.each do |poke| %>
+		<%= User.find(poke.sender_id).username %>
+		<br>
+	<% end %>
+<% else %>
+No pokes here!
+<% end %>
+</div>

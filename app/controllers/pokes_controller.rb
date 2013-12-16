@@ -1,0 +1,2 @@
+class PokesController < ApplicationController
+end

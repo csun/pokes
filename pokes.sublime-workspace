@@ -4,6 +4,50 @@
 		"selected_items":
 		[
 			[
+				"login",
+				"login_as"
+			],
+			[
+				"logo",
+				"logout_path"
+			],
+			[
+				"re",
+				"redirect_to"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"pass",
+				"password_salt"
+			],
+			[
+				"passw",
+				"password"
+			],
+			[
+				"ide",
+				"indentical_user"
+			],
+			[
+				"should",
+				"should_not"
+			],
+			[
+				"create",
+				"create"
+			],
+			[
+				"p",
+				"password"
+			],
+			[
+				"passwo",
+				"password_confirmation"
+			],
+			[
 				"ch",
 				"change_table"
 			],
@@ -236,10 +280,6 @@
 				"nextJumpPolar"
 			],
 			[
-				"re",
-				"relativeJumpPolar"
-			],
-			[
 				"v",
 				"Vector"
 			],
@@ -335,13 +375,57 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/models/poke.rb",
+			"settings":
+			{
+				"buffer_size": 128,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 661,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/users_controller.rb",
+			"settings":
+			{
+				"buffer_size": 434,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/features/poke_management_spec.rb",
+			"settings":
+			{
+				"buffer_size": 398,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/users/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 38,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/User/Haxepunk Test.sublime-build",
 	"command_palette":
 	{
-		"height": 27.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"mo",
+				"Quick File Move: Move Current File"
+			],
 			[
 				"move",
 				"Quick File Move: Move Current File"
@@ -419,7 +503,7 @@
 				"Package Control: Remove Package"
 			]
 		],
-		"width": 490.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -439,6 +523,40 @@
 	},
 	"file_history":
 	[
+		"/Users/Cameron/Documents/Dev/Other/pokes/spec/features/session_management_spec.rb",
+		"/Users/Cameron/Documents/Dev/Other/pokes/spec/features/poke_management_spec.rb",
+		"/Users/Cameron/Documents/Dev/Other/pokes/spec/support/feature_helpers.rb",
+		"/Users/Cameron/Documents/Dev/Other/pokes/spec/spec_helper.rb",
+		"/Users/Cameron/Documents/Dev/Other/pokes/spec/models/poke_spec.rb",
+		"/Users/Cameron/Documents/Dev/Other/pokes/spec/models/user_spec.rb",
+		"/Users/Cameron/Documents/Dev/Other/pokes/db/migrate/20131106211755_create_pokes.rb",
+		"/Users/Cameron/Documents/Dev/Other/pokes/db/schema.rb",
+		"/Users/Cameron/Documents/Dev/Other/pokes/spec/controllers/sessions_controller_spec.rb",
+		"/Users/Cameron/Documents/Dev/Other/pokes/app/controllers/sessions_controller.rb",
+		"/Users/Cameron/Documents/Dev/Other/pokes/spec/features/user_management_spec.rb",
+		"/Users/Cameron/Documents/Dev/Other/pokes/config/routes.rb",
+		"/Users/Cameron/Documents/Dev/Other/pokes/spec/controllers/users_controller_spec.rb",
+		"/Users/Cameron/Documents/Dev/Other/pokes/app/models/user.rb",
+		"/Users/Cameron/Documents/Dev/Other/pokes/app/controllers/users_controller.rb",
+		"/Users/Cameron/Documents/Dev/Other/pokes/app/views/sessions/new.html.erb",
+		"/Users/Cameron/Downloads/Problem Set 8 (Hungry Henry 2 Templates).rkt",
+		"/Users/Cameron/Documents/Dev/Other/pokes/config/initializers/session_store.rb",
+		"/Users/Cameron/Documents/Dev/Other/pokes/spec/factories/users.rb",
+		"/Users/Cameron/Documents/Dev/Other/pokes/app/views/layouts/application.html.erb",
+		"/Users/Cameron/Documents/Dev/Other/pokes/app/views/application/_header.html.erb",
+		"/Users/Cameron/Documents/Dev/Other/pokes/app/views/users/show.html.erb",
+		"/Users/Cameron/Documents/Dev/Other/pokes/app/views/_header.html.erb",
+		"/Users/Cameron/Documents/Dev/Other/pokes/app/views/application/_footer.html.erb",
+		"/Users/Cameron/Documents/Dev/Other/pokes/app/views/_footer.html.erb",
+		"/Users/Cameron/Documents/Dev/Other/pokes/app/views/layouts/_footer.html.erb",
+		"/Users/Cameron/Documents/Dev/Other/pokes/app/views/layouts/_header.html.erb",
+		"/Users/Cameron/Desktop/df_osx/data/init/init.txt",
+		"/Users/Cameron/Desktop/df_osx/readme.txt",
+		"/Users/Cameron/Documents/Dev/Other/pokes/README.rdoc",
+		"/Users/Cameron/Documents/Dev/Other/pokes/app/views/users/new.html.erb",
+		"/Users/Cameron/Library/Application Support/Sublime Text 3/Packages/User/Snippets/erbi.sublime_snippet",
+		"/Users/Cameron/Documents/Dev/Other/pokes/Gemfile",
+		"/Users/Cameron/Documents/Dev/Other/pokes/db/migrate/20131024170619_add_username_and_password_to_user.rb",
 		"/Users/Cameron/Documents/Dev/Other/impromptu/app/controllers/guest_relationships_controller.rb",
 		"/Users/Cameron/Documents/Dev/Other/impromptu/app/controllers/users_controller.rb",
 		"/Users/Cameron/Documents/Dev/Other/impromptu/app/models/event.rb",
@@ -532,41 +650,7 @@
 		"/Users/Cameron/Library/Application Support/Sublime Text 3/Packages/User/test.sublime-build",
 		"/Users/Cameron/Documents/Dev/Games/Miso/build.sh",
 		"/Users/Cameron/Documents/Dev/Games/Miso/src/math/Polar.hx",
-		"/Users/Cameron/Documents/Dev/Games/Miso/src/math/Ray.hx",
-		"/Users/Cameron/Documents/Dev/Games/Miso/src/math/Arc.hx",
-		"/Users/Cameron/Documents/Dev/Games/Miso/src/utilities/PlayerInputManager.hx",
-		"/Users/Cameron/Documents/Dev/Games/Miso/src/entities/Player.hx",
-		"/Users/Cameron/Documents/Dev/Games/Miso/src/math/Helper.hx",
-		"/Users/Cameron/Documents/Dev/Games/Miso/src/events/AttackEventManager.hx",
-		"/Users/Cameron/Documents/Dev/Games/Miso/src/utilities/Weapon.hx",
-		"/Users/Cameron/Documents/Dev/Games/Miso/src/events/AttackEvent.hx",
-		"/Users/Cameron/Documents/Dev/Games/Miso/src/utilities/AttackEventManager.hx",
-		"/Users/Cameron/Documents/Dev/Games/Miso/src/entities/Enemy.hx",
-		"/Users/Cameron/Documents/Dev/Games/Miso/src/utilities/SentientStats.hx",
-		"/Users/Cameron/Documents/Dev/Games/Miso/src/scenes/CombatScene.hx",
-		"/Users/Cameron/Documents/Dev/Games/Miso/src/utilities/CameraController.hx",
-		"/Users/Cameron/Documents/Dev/Games/Miso/src/utilities/Polar.hx",
-		"/Users/Cameron/Documents/Dev/Games/Miso/src/Main.hx",
-		"/Users/Cameron/Documents/Dev/Games/Miso/src/entities/PlayerControlIndicator.hx",
-		"/Users/Cameron/Documents/Dev/Games/Miso/src/InputManager.hx",
-		"/Users/Cameron/Documents/Dev/Games/Miso/.gitignore",
-		"/Users/Cameron/Desktop/Haxe.tmLanguage",
-		"/Users/Cameron/Documents/Dev/Games/Miso/Miso/Input/InputManager.lua",
-		"/Users/Cameron/Documents/Dev/Games/Miso/Miso/GameState.lua",
-		"/Users/Cameron/Documents/Dev/Games/Miso/Miso/Input/InputListener.lua",
-		"/Users/Cameron/Documents/Dev/Games/Miso/Miso/InputManager.lua",
-		"/Users/Cameron/Documents/Dev/Games/Miso/Miso/Input/InputEventKeys.lua",
-		"/Users/Cameron/Library/Application Support/Sublime Text 3/Packages/User/Snippets/LCS_class.sublime-snippet",
-		"/Users/Cameron/Documents/Dev/Games/Miso/main.lua",
-		"/Users/Cameron/Documents/Dev/Games/Miso/Miso/Graphics/FollowCamera.lua",
-		"/Users/Cameron/Documents/Dev/Games/Miso/Miso/World.lua",
-		"/Users/Cameron/Documents/Dev/Games/Miso/Miso/Components/CameraFollowPlayerComponent.lua",
-		"/Users/Cameron/Documents/Dev/Games/Miso/Miso/Graphics/Camera.lua",
-		"/Users/Cameron/Documents/Dev/Games/Miso/Miso.sublime-project",
-		"/Users/Cameron/Documents/Dev/Games/Miso/LCS.lua",
-		"/Users/Cameron/main.lua",
-		"/Users/Cameron/Documents/Dev/lib/Angel-3.1/Code/ClientGame/Documentation/GameInfo.txt",
-		"/Users/Cameron/Documents/Dev/lib/Angel-3.1/Code/ClientGame/Main.cpp"
+		"/Users/Cameron/Documents/Dev/Games/Miso/src/math/Ray.hx"
 	],
 	"find":
 	{
@@ -585,6 +669,36 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"user",
+			"poke_sender",
+			"user",
+			" @",
+			"scenario",
+			" @",
+			"username",
+			"4",
+			"3",
+			"2",
+			"user",
+			"msg",
+			"saved",
+			"message",
+			"header",
+			"2D",
+			"users_count",
+			"click_link",
+			"Hello",
+			"validates_confirmation_of",
+			"password_confirmation",
+			" :",
+			"password",
+			"username",
+			"hello",
+			"Hello",
+			"build",
+			"new",
+			"describe",
+			"not",
 			"should_be_invalid",
 			"Factory",
 			"references",
@@ -682,37 +796,7 @@
 			"private",
 			"computeProjectedValues",
 			"functino",
-			"static",
-			"private",
-			"attemptToDamageSelf",
-			"collidesWithOtherArc",
-			",",
-			"damageDoneToSentient",
-			"utilities",
-			"private",
-			"followPlayer",
-			"player",
-			"utilities",
-			"utilities.Polar",
-			"MAX_JUMP_MOUSE_DISTANCE",
-			"toRadians",
-			"native",
-			"private",
-			"computeJumpStrengthFactor",
-			"computeRelativeJumpStrength",
-			"calculaterelativeJumpPolar",
-			"MousePolar",
-			"mousePolar",
-			"MousePolar",
-			"mousePolar",
-			"var",
-			"Point",
-			"Vector",
-			"ControlIndicator",
-			"public",
-			"Start",
-			"lockMouse",
-			"table"
+			"static"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -732,8 +816,152 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/models/poke.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								123,
+								123
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/models/user.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 661,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/users_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 434,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								376,
+								376
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "spec/features/poke_management_spec.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 398,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								363,
+								363
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/users/show.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 38,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -754,11 +982,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -784,12 +1019,180 @@
 		"selected_items":
 		[
 			[
-				"events",
-				"app/controllers/events_controller.rb"
+				"uscon",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"show",
+				"app/views/users/show.html.erb"
+			],
+			[
+				"man",
+				"spec/features/poke_management_spec.rb"
+			],
+			[
+				"sesm",
+				"spec/features/session_management_spec.rb"
+			],
+			[
+				"spe",
+				"spec/spec_helper.rb"
+			],
+			[
+				"seam",
+				"spec/features/session_management_spec.rb"
+			],
+			[
+				"poks",
+				"spec/models/poke_spec.rb"
+			],
+			[
+				"user",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"sc",
+				"db/schema.rb"
+			],
+			[
+				"sesman",
+				"spec/features/session_management_spec.rb"
+			],
+			[
+				"sessio",
+				"spec/controllers/sessions_controller_spec.rb"
+			],
+			[
+				"use",
+				"app/models/user.rb"
+			],
+			[
+				"cr",
+				"db/migrate/20131106211755_create_pokes.rb"
+			],
+			[
+				"poke",
+				"app/models/poke.rb"
+			],
+			[
+				"secos",
+				"spec/controllers/sessions_controller_spec.rb"
+			],
+			[
+				"sphe",
+				"spec/spec_helper.rb"
+			],
+			[
+				"spec",
+				"spec/controllers/users_controller_spec.rb"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"usma",
+				"spec/features/user_management_spec.rb"
+			],
+			[
+				"ses",
+				"spec/features/session_management_spec.rb"
+			],
+			[
+				"sess",
+				"spec/controllers/sessions_controller_spec.rb"
+			],
+			[
+				"us",
+				"spec/controllers/users_controller_spec.rb"
+			],
+			[
+				"sema",
+				"spec/features/session_management_spec.rb"
+			],
+			[
+				"usesp",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"usersconsp",
+				"spec/controllers/users_controller_spec.rb"
+			],
+			[
+				"ssp",
+				"spec/controllers/sessions_controller_spec.rb"
 			],
 			[
 				"users",
 				"app/controllers/users_controller.rb"
+			],
+			[
+				"sesssp",
+				"spec/features/session_management_spec.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"seeman",
+				"spec/features/session_management_spec.rb"
+			],
+			[
+				"useman",
+				"spec/features/user_management_spec.rb"
+			],
+			[
+				"fac",
+				"spec/factories/users.rb"
+			],
+			[
+				"usersp",
+				"spec/controllers/users_controller_spec.rb"
+			],
+			[
+				"hea",
+				"app/views/application/_header.html.erb"
+			],
+			[
+				"cont",
+				"spec/controllers/users_controller_spec.rb"
+			],
+			[
+				"foo",
+				"app/views/_footer.html.erb"
+			],
+			[
+				"app",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"rea",
+				"README.rdoc"
+			],
+			[
+				"controller/sp",
+				"spec/controllers/users_controller_spec.rb"
+			],
+			[
+				"sp",
+				"spec/spec_helper.rb"
+			],
+			[
+				"sch",
+				"db/schema.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"mi",
+				"db/migrate/20131024170619_add_username_and_password_to_user.rb"
+			],
+			[
+				"events",
+				"app/controllers/events_controller.rb"
 			],
 			[
 				"guest",
@@ -802,18 +1205,6 @@
 			[
 				"gues",
 				"app/models/guest_relationship.rb"
-			],
-			[
-				"gem",
-				"Gemfile"
-			],
-			[
-				"use",
-				"app/models/user.rb"
-			],
-			[
-				"user",
-				"app/models/user.rb"
 			],
 			[
 				"ev",
@@ -830,10 +1221,6 @@
 			[
 				"event",
 				"spec/models/event.rb"
-			],
-			[
-				"sc",
-				"db/schema.rb"
 			],
 			[
 				"gue",
@@ -860,16 +1247,8 @@
 				"spec/models/user.rb"
 			],
 			[
-				"spe",
-				"spec/spec_helper.rb"
-			],
-			[
 				"fa",
 				"spec/factories.rb"
-			],
-			[
-				"mi",
-				"db/migrate/20131016191122_add_guests_to_event.rb"
 			],
 			[
 				"da",
@@ -878,18 +1257,6 @@
 			[
 				"migr",
 				"db/migrate/20131013043738_add_user_ref_to_events.rb"
-			],
-			[
-				"us",
-				"app/models/user.rb"
-			],
-			[
-				"hea",
-				"app/views/layouts/_header.html.erb"
-			],
-			[
-				"app",
-				"app/views/layouts/application.html.erb"
 			],
 			[
 				"sce",
@@ -936,20 +1303,12 @@
 				"app/views/events/index.html.erb"
 			],
 			[
-				"sch",
-				"db/schema.rb"
-			],
-			[
 				"ym",
 				"config/database.yml"
 			],
 			[
 				"view",
 				"app/views/layouts/application.html.erb"
-			],
-			[
-				"rou",
-				"config/routes.rb"
 			],
 			[
 				"coll",
@@ -1170,10 +1529,6 @@
 			[
 				"pig.l",
 				"src/Pig.ls"
-			],
-			[
-				"pig",
-				"src/Pig.ls"
 			]
 		],
 		"width": 0.0
@@ -1200,7 +1555,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 178.0,
 	"status_bar_visible": true,
 	"template_settings":

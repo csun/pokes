@@ -2,6 +2,9 @@ class User < ActiveRecord::Base
 	attr_accessor :password, :password_confirmation
 	before_save :encrypt_password
 
+	has_many :pokes, foreign_key: 'receiver_id'
+	has_many :sent_pokes, class_name: 'Poke', foreign_key: 'sender_id'
+
 	validates :password, confirmation: true
 	validates :password_confirmation, presence:true
 	validates :username, presence: true, uniqueness: true
